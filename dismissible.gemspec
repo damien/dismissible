@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Dismissible::VERSION
   spec.authors       = ["Damien Wilson"]
   spec.email         = ["damien@mindglob.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{An ActiveRecord extension that enables data to be hidden on a per-user basis}
+  spec.summary       = %q{Create scopes for ActiveRecord that allow for easy, model-by-model visibility of records}
+  spec.homepage      = "https://github.com/damien/dismissible"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -21,4 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
+  spec.add_development_dependency "activerecord", "~> 3.2"
+  spec.add_development_dependency "railties"
 end
