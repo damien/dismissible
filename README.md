@@ -1,4 +1,4 @@
-# Dismissible
+Dismissible
 ===========
 
 [![Build Status](https://travis-ci.org/damien/dismissible.png)](https://travis-ci.org/damien/dismissible)
