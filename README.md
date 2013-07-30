@@ -1,6 +1,9 @@
 # Dismissible
 ===========
 
+[![Build Status](https://travis-ci.org/damien/dismissible.png)](https://travis-ci.org/damien/dismissible)
+[![Dependency Status](https://gemnasium.com/damien/dismissible.png)](https://gemnasium.com/damien/dismissible)
+
 An ActiveRecord extension that enables data to be hidden on a per-user basis.
 
 ## Installation

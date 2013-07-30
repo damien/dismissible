@@ -1,0 +1,14 @@
+language: ruby
+script: rake spec
+
+branches:
+  only: master
+
+rvm:
+  - "2.0"
+  - "1.9.3"
+  - jruby-19mode
+
+notifications:
+  email:
+    - damien+rack-dismissible@mindglob.com
